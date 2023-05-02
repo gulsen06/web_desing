@@ -56,13 +56,12 @@ button {
   padding: 5px;
   margin: 10px;
 }
-.kart1,
-.kart2,
-.kart3 {
+.kart {
+  border: 2px solid red;
   display: inline-block;
-
-  width: 200px;
-  height: 300px;
+  text-align: center;
+  width: 300px;
+  height: 200px;
   padding: 15px;
   margin: 10px 10 px;
   border-radius: 10px;
