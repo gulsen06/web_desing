@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./img/background.png);
+  background-size: cover;
+}
+.nav {
+  margin: 10px;
+  padding: 10px;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+  font-size: 15px;
+}
+ul li {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  border: 2px solid transparent;
+}
+
+.stun {
+  display: inline-block;
+  margin: 50px;
+  padding: 30px;
+  font-size: larger;
+  position: relative;
+  width: 500px;
+  font-style: italic;
+  color: rgb(1, 8, 2);
+  font-weight: bold;
+  line-height: 30px;
+}
+.stun h1 {
+  color: darkorange;
+  margin: 20px;
+  font-weight: bold;
+}
+button {
+  width: 100px;
+  color: #000;
+  font-size: 15px;
+  border-radius: 20px;
+  background-color: aquamarine;
+  padding: 5px;
+  margin: 10px;
+}
+.kart1,
+.kart2,
+.kart3 {
+  display: inline-block;
+
+  width: 200px;
+  height: 300px;
+  padding: 15px;
+  margin: 10px 10 px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
